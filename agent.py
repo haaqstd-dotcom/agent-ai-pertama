@@ -15,7 +15,7 @@ agent = CodeAgent(
 )
 
 # Tugas agent (ubah sesuai kebutuhan Anda)
-tugas = "Cari 3 berita teknologi terbaru hari ini, lalu rangkum singkat dalam bahasa Indonesia."
+tugas = "Cari 3 berita kebakaran, lalu rangkum singkat dalam bahasa Indonesia."
 
 hasil = agent.run(tugas)
 print("=== HASIL AGENT ===")
