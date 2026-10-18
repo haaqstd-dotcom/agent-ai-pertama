@@ -3,7 +3,7 @@ from smolagents import CodeAgent, LiteLLMModel, DuckDuckGoSearchTool
 
 # Otak AI: Gemini lewat API gratis (kunci diambil dari GitHub Secrets)
 model = LiteLLMModel(
-    model_id="gemini/gemini-2.5-flash",  # ganti dengan model Flash gratis terbaru di AI Studio
+    model_id="gemini/gemini-3.8-flash",  # ganti dengan model Flash gratis terbaru di AI Studio
     api_key=os.environ["GEMINI_API_KEY"],
 )
 
